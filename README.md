@@ -28,7 +28,7 @@ The entire workflow, from preprocessing to model tuning, is encapsulated in `sci
     * `GridSearchCV` was used to systematically tune hyperparameters for both the `PCA` step (`n_components`) and the specific classifier[cite: 209].
     * `StratifiedKFold` (with 5 splits) was used for cross-validation to handle the class distribution.
 
-## 📈 Models & Results
+## Models & Results
 
 Four different classifiers were evaluated using the same pipeline structure. The final accuracy score was measured on the held-out test set.
 
@@ -39,11 +39,11 @@ Four different classifiers were evaluated using the same pipeline structure. The
 | **Random Forest** | **70.8%**  |
 | **XGBoost** | 68.2%  |
 
-### 🏆 Conclusion
+### Conclusion
 
 The **Random Forest Classifier** provided the best performance on the test set, with an accuracy of **70.8%**. Confusion matrices were also generated for each model to visualize their true positive, true negative, false positive, and false negative rates.
 
-## 🚀 How to Run
+## How to Run
 
 1.  Clone this repository:
 2.  Install the required libraries:
