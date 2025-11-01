@@ -6,9 +6,9 @@ The entire workflow, from preprocessing to model tuning, is encapsulated in `sci
 
 ## Dataset
 
-* [cite_start]**Source:** PIMA Indians Diabetes Database 
-* [cite_start]**Features:** `Pregnancies`, `Glucose`, `BloodPressure`, `SkinThickness`, `Insulin`, `BMI`, `DiabetesPedigreeFunction`, `Age` [cite: 16, 34]
-* [cite_start]**Target:** `Outcome` (0 for No Diabetes, 1 for Diabetes) [cite: 184, 270]
+* **Source:** PIMA Indians Diabetes Database 
+* **Features:** `Pregnancies`, `Glucose`, `BloodPressure`, `SkinThickness`, `Insulin`, `BMI`, `DiabetesPedigreeFunction`, `Age`
+* **Target:** `Outcome` (0 for No Diabetes, 1 for Diabetes) 
 
 ## Project Workflow
 
